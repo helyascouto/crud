@@ -11,12 +11,13 @@ namespace CadastroProdutos
         public FramePrincipal()
         {
             InitializeComponent();
+            FrameVisualizar f = new FrameVisualizar();
+            f.carregaDatagrid();
         }
 
         private void ShowNewForm(object sender, EventArgs e)
         {
-
-
+           
         }
 
         private void OpenFile(object sender, EventArgs e)

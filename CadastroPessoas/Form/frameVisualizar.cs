@@ -8,22 +8,19 @@ using System.Windows.Forms;
 
 namespace CadastroPessoas
 {
+
     public partial class FrameVisualizar : Form
     {
         Funcionarios f = new Funcionarios();
         SqlConnection conexao;
-        public FrameVisualizar()
-        {
-            InitializeComponent();
-        }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void carregaDatagrid()
         {
-
+            
             try
 
             {
-
+                
                 conexao = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\BUTFIRE\crud\CadastroPessoas\BD\DB_SistemaCadastro.mdf;Integrated Security=True;Connect Timeout=30");
                 String comandoSql = "SELECT * FROM TB_FUNCIONARIOS";
                 SqlDataAdapter da = new SqlDataAdapter(comandoSql, conexao);
@@ -43,6 +40,16 @@ namespace CadastroPessoas
                 conexao.Close();
                 conexao = null;
             };
+        }
+        public FrameVisualizar()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            carregaDatagrid();
+            
         }
 
         private void novoToolStripMenuItem_Click(object sender, EventArgs e)
