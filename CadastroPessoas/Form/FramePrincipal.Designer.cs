@@ -60,6 +60,10 @@ namespace CadastroProdutos
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -106,7 +110,7 @@ namespace CadastroProdutos
             this.toolStripMenuItem9.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
             this.toolStripMenuItem9.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(212, 54);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(191, 54);
             this.toolStripMenuItem9.Text = "Funcionário ";
             this.toolStripMenuItem9.Click += new System.EventHandler(this.toolStripMenuItem9_Click);
             // 
@@ -196,7 +200,7 @@ namespace CadastroProdutos
             this.toolStripMenuItem4.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(212, 54);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(191, 54);
             this.toolStripMenuItem4.Text = "Funcionário ";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
@@ -349,6 +353,20 @@ namespace CadastroProdutos
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
             // FramePrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -404,6 +422,10 @@ namespace CadastroProdutos
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
     }
 }
 

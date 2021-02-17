@@ -342,7 +342,7 @@ namespace CadastroProdutos
             this.btnLinpar.Text = "Limpar";
             this.btnLinpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLinpar.UseVisualStyleBackColor = false;
-            
+            this.btnLinpar.Click += new System.EventHandler(this.btnLinpar_Click);
             // 
             // pictureBox3
             // 

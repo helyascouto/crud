@@ -1,6 +1,8 @@
 ﻿using CadastroPessoas;
 using System;
 using System.Windows.Forms;
+using System.Drawing;
+using System.Drawing.Printing;
 
 namespace CadastroProdutos
 {
@@ -115,7 +117,13 @@ namespace CadastroProdutos
 
         private void printPreviewToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            int largura = printDocument1.DefaultPageSettings.Bounds.Width;
+            int altura = printDocument1.DefaultPageSettings.Bounds.Height;
+            int x = 50;
+            int y = 50;
 
+            printPreviewDialog1.Document = printDocument1;
+            printPreviewDialog1.ShowDialog();
         }
 
         private void visualizarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -127,8 +135,7 @@ namespace CadastroProdutos
 
         private void printSetupToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-
+            printDialog1.ShowDialog();
         }
 
         private void toolStripMenuItem9_Click(object sender, EventArgs e)

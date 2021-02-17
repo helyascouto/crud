@@ -53,7 +53,7 @@ namespace CadastroProdutos
         {
             txtNome.Text = null;
             txtTelefone.Text = null;
-            txtSalario.Text = "";
+            txtSalario.Text = null;
             txtEmail.Text = null;
             dateTimePicker.Text = null;
             txtCidade.Text = null;
@@ -156,7 +156,10 @@ namespace CadastroProdutos
 
         }
 
-
+        private void btnLinpar_Click(object sender, EventArgs e)
+        {
+            limparCampos();
+        }
     }
 
 
