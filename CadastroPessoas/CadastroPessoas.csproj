@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\DgvPrinter.cs" />
     <Compile Include="Class\Funcionarios.cs" />
     <Compile Include="BD\DB_SistemaCadastroDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

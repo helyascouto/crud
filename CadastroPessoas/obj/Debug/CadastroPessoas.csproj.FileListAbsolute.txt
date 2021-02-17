@@ -29,7 +29,6 @@ C:\Users\BUTFIRE\Desktop\CadastroPessoas\CadastroPessoas\bin\Debug\SistemaCadast
 C:\Users\BUTFIRE\crud\CadastroPessoas\bin\Debug\SistemaCadastro.exe.config
 C:\Users\BUTFIRE\crud\CadastroPessoas\bin\Debug\SistemaCadastro.exe
 C:\Users\BUTFIRE\crud\CadastroPessoas\bin\Debug\SistemaCadastro.pdb
-C:\Users\BUTFIRE\crud\CadastroPessoas\obj\Debug\CadastroPessoas.csprojAssemblyReference.cache
 C:\Users\BUTFIRE\crud\CadastroPessoas\obj\Debug\CadastroProdutos.FrameExcluir.resources
 C:\Users\BUTFIRE\crud\CadastroPessoas\obj\Debug\CadastroProdutos.FrameAlterar.resources
 C:\Users\BUTFIRE\crud\CadastroPessoas\obj\Debug\CadastroProdutos.frameCadastro.resources
