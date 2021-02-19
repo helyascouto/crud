@@ -25,7 +25,7 @@ namespace CadastroPessoas
 
             {
 
-                conexao = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\BUTFIRE\crud\CadastroPessoas\BD\DB_SistemaCadastro.mdf;Integrated Security=True;Connect Timeout=30");
+                conexao = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\BUTFIRE\SistemaCadastro\CadastroPessoas\BD\DB_SistemaCadastro.mdf;Integrated Security=True;Connect Timeout=30");
                 String comandoSql = "SELECT * FROM TB_FUNCIONARIOS";
                 SqlDataAdapter da = new SqlDataAdapter(comandoSql, conexao);
                 DataSet ds = new DataSet();

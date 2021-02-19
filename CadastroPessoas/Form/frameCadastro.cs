@@ -13,7 +13,7 @@ namespace CadastroProdutos
 
     {
         SqlCommand executeSql;
-        SqlConnection conexao = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\BUTFIRE\crud\CadastroPessoas\BD\DB_SistemaCadastro.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection conexao = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\BUTFIRE\SistemaCadastro\CadastroPessoas\BD\DB_SistemaCadastro.mdf;Integrated Security=True;Connect Timeout=30");
         SqlDataAdapter da;
         String comandoSql;
         DataSet ds;
