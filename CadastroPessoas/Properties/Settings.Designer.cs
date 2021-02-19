@@ -26,9 +26,8 @@ namespace SistemaCadastro.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\BUTFIRE\\source\\repos" +
-            "\\CadastroPessoas\\CadastroPessoas\\BD\\DB_SistemaCadastro.mdf;Integrated Security=T" +
-            "rue;Connect Timeout=30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\BD\\DB_Sistema" +
+            "Cadastro.mdf;Integrated Security=True;Connect Timeout=30")]
         public string DB_SistemaCadastroConnectionString {
             get {
                 return ((string)(this["DB_SistemaCadastroConnectionString"]));
