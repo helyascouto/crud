@@ -187,7 +187,7 @@ namespace CadastroPessoas
 
            // e.Graphics.DrawString(texto, fonte, corTexto, areaTitulo, formatoTitulo);
             dataGridViewPrincipal.DrawToBitmap(folha, areaImpressa);
-            e.Graphics.DrawImage(folha, 5,10);
+            e.Graphics.DrawImage(folha, 0,0);
 
             dataGridViewPrincipal.Height = height;
 
